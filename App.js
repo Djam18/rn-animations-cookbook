@@ -1,15 +1,15 @@
 import React from 'react';
 import { ScrollView, Text, StyleSheet } from 'react-native';
-import { ColorInterpolation, RotationInterpolation, ScaleInterpolation } from './src/02-interpolation/InterpolationRecipes';
+import { ExpandCollapseDemo, ListInsertDeleteDemo, CustomLayoutAnimationDemo } from './src/03-layout-animation/LayoutAnimationRecipes';
 
 export default function App() {
   return (
     <ScrollView style={styles.container}>
       <Text style={styles.title}>RN Animations Cookbook</Text>
-      <Text style={styles.subtitle}>02 - Interpolation Recipes</Text>
-      <ColorInterpolation />
-      <RotationInterpolation />
-      <ScaleInterpolation />
+      <Text style={styles.subtitle}>03 - LayoutAnimation Recipes</Text>
+      <ExpandCollapseDemo />
+      <ListInsertDeleteDemo />
+      <CustomLayoutAnimationDemo />
     </ScrollView>
   );
 }
