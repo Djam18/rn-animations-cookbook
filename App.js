@@ -1,15 +1,14 @@
 import React from 'react';
 import { ScrollView, Text, StyleSheet } from 'react-native';
-import { ExpandCollapseDemo, ListInsertDeleteDemo, CustomLayoutAnimationDemo } from './src/03-layout-animation/LayoutAnimationRecipes';
+import { SharedValueDemo, CompareAnimatedVsReanimated } from './src/04-reanimated2-intro/Reanimated2Intro';
 
 export default function App() {
   return (
     <ScrollView style={styles.container}>
       <Text style={styles.title}>RN Animations Cookbook</Text>
-      <Text style={styles.subtitle}>03 - LayoutAnimation Recipes</Text>
-      <ExpandCollapseDemo />
-      <ListInsertDeleteDemo />
-      <CustomLayoutAnimationDemo />
+      <Text style={styles.subtitle}>04 - Reanimated 2 Introduction</Text>
+      <SharedValueDemo />
+      <CompareAnimatedVsReanimated />
     </ScrollView>
   );
 }
