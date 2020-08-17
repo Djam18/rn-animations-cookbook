@@ -1,16 +1,15 @@
 import React from 'react';
 import { ScrollView, Text, StyleSheet } from 'react-native';
-import { WithTimingDemo, WithSpringDemo, WithSequenceDemo, WithRepeatDemo } from './src/05-reanimated2-animations/AnimationDrivers';
+import { PanGestureDemo, PinchGestureDemo, RotationGestureDemo } from './src/06-gesture-handler/GestureHandlerRecipes';
 
 export default function App() {
   return (
     <ScrollView style={styles.container}>
       <Text style={styles.title}>RN Animations Cookbook</Text>
-      <Text style={styles.subtitle}>05 - Reanimated 2: withTiming, withSpring, withSequence</Text>
-      <WithTimingDemo />
-      <WithSpringDemo />
-      <WithSequenceDemo />
-      <WithRepeatDemo />
+      <Text style={styles.subtitle}>06 - Gesture Handler: Pan, Pinch, Rotation</Text>
+      <PanGestureDemo />
+      <PinchGestureDemo />
+      <RotationGestureDemo />
     </ScrollView>
   );
 }
