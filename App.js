@@ -1,13 +1,13 @@
 import React from 'react';
 import { ScrollView, Text, StyleSheet } from 'react-native';
-import { SkeletonLoaderRecipe } from './src/08-skeleton-loader/SkeletonLoader';
+import { BottomSheetRecipe } from './src/09-bottom-sheet/BottomSheet';
 
 export default function App() {
   return (
     <ScrollView style={styles.container}>
       <Text style={styles.title}>RN Animations Cookbook</Text>
-      <Text style={styles.subtitle}>08 - Skeleton Loader Recipe</Text>
-      <SkeletonLoaderRecipe />
+      <Text style={styles.subtitle}>09 - Bottom Sheet Recipe</Text>
+      <BottomSheetRecipe />
     </ScrollView>
   );
 }
