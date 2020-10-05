@@ -1,13 +1,13 @@
 import React from 'react';
 import { ScrollView, Text, StyleSheet } from 'react-native';
-import { SwipeableCardRecipe } from './src/10-swipeable-card/SwipeableCard';
+import { PullToRefreshRecipe } from './src/11-pull-to-refresh/PullToRefresh';
 
 export default function App() {
   return (
     <ScrollView style={styles.container}>
       <Text style={styles.title}>RN Animations Cookbook</Text>
-      <Text style={styles.subtitle}>10 - Swipeable Card (Tinder-like)</Text>
-      <SwipeableCardRecipe />
+      <Text style={styles.subtitle}>11 - Pull-to-Refresh Recipe</Text>
+      <PullToRefreshRecipe />
     </ScrollView>
   );
 }
