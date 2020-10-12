@@ -1,13 +1,13 @@
 import React from 'react';
 import { ScrollView, Text, StyleSheet } from 'react-native';
-import { PullToRefreshRecipe } from './src/11-pull-to-refresh/PullToRefresh';
+import { ParallaxScrollRecipe } from './src/12-parallax-scroll/ParallaxScroll';
 
 export default function App() {
   return (
     <ScrollView style={styles.container}>
       <Text style={styles.title}>RN Animations Cookbook</Text>
-      <Text style={styles.subtitle}>11 - Pull-to-Refresh Recipe</Text>
-      <PullToRefreshRecipe />
+      <Text style={styles.subtitle}>12 - Parallax Scroll Recipe</Text>
+      <ParallaxScrollRecipe />
     </ScrollView>
   );
 }
