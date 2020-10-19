@@ -1,13 +1,13 @@
 import React from 'react';
 import { ScrollView, Text, StyleSheet } from 'react-native';
-import { ParallaxScrollRecipe } from './src/12-parallax-scroll/ParallaxScroll';
+import { CarouselRecipe } from './src/13-carousel/Carousel';
 
 export default function App() {
   return (
     <ScrollView style={styles.container}>
       <Text style={styles.title}>RN Animations Cookbook</Text>
-      <Text style={styles.subtitle}>12 - Parallax Scroll Recipe</Text>
-      <ParallaxScrollRecipe />
+      <Text style={styles.subtitle}>13 - Carousel Recipe</Text>
+      <CarouselRecipe />
     </ScrollView>
   );
 }
